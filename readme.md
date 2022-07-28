@@ -19,6 +19,6 @@ It was such a relief when I used flex function to align items. Half the time wen
 
 ## Live link
 
-[Project Link](https://google.com "Netlify")
+[Project Link](https://bucolic-daifuku-b83e20.netlify.app/ "Netlify")
 
 
