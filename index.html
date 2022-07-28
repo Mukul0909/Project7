@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>Product Home Page</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>body {
+      font-family: "Fredoka One";
+    }
+    
+    .nav-items {
+      display: flex;
+      position: absolute;
+      top: 26px;
+      left: 311px;
+    }
+    
+    .nav-items h5 {
+      top: 20px;
+      padding-left: 90px;
+      font-weight: lighter;
+      font-family: "Poppins";
+      font-size: 17px;
+    }
+    
+    .nav-item-active-item {
+      color: #fe5e35;
+      font-weight: 900;
+    }
+  
+    .nav-items~img{
+      position: absolute;
+      top: 28px;
+      right: -80px;
+      z-index: -1;
+    }
+  
+    img[alt="logo"]
+    {
+      position: relative;
+      padding: 20px;
+      margin-left: 30px;
+      top: 15px;
+      left: -15px;
+      z-index: 1;
+    }
+    
+    .left-section{
+      position: relative;
+      left: 54px;
+      top: 20px;
+    }
+  
+    .left-section>h3{
+      font-family: "Poppins";
+      font-size: 28px;
+      font-weight: normal;
+    }
+  
+    img[alt="circles"]{
+      display: inline-block;
+      height: 45px;
+      position: relative;
+      top: 10px;
+      left: 10px;
+    } 
+  
+    .left-section>h1{
+      font-size: 70px;
+      font-weight: normal;
+      margin-top: -13px;
+    }
+  
+    .sub-headlines{
+      font-family: "Poppins";
+      position: relative;
+      font-size: 23px;
+      left: 130px;
+  }   
+    
+   img[alt="plus"]{
+      position: absolute;
+      background-color: #fe5e35;
+      border: 2px none black;
+      border-radius: 30px;
+      padding: 10px;
+      height: 15px;
+      display: inline-block;
+      left: -50px;
+      margin-top: -2px;
+   }
+  
+   .left-section>p{
+      font-family: "Poppins";
+      color: #dbdbdb;
+      display: inline-block;
+      width: 54%;
+      font-weight: lighter;
+      font-size: 14px;
+      text-align: left;
+   }
+  
+   .action-btns{
+      position: relative;
+      left: -22px;
+      top: 10px;
+   }
+  
+   .action-btn{
+      border-style: none;
+      background-color: #fe5e35;
+      font-family: "Poppins";
+      color: #fff;
+      font-size: 20px;
+      padding: 15px 30px;
+      margin: 20px;
+      border-radius: 50px;
+   }
+  
+   .action-btn:hover{
+      background-color: #aa4329;
+   }
+   
+   .right-section{
+      position: absolute;
+      top: 0%;
+      right: 0px;
+   }
+   .headphone-div{
+    position: relative;
+    top: 00%;
+    right: 0%;
+   }
+  
+  img[alt="headphone"]
+   {position: relative;
+      z-index: -1;
+      top: -11em;
+      left: -100px;
+      display: inline;
+      height: 400px;
+      width: 400px;
+   }
+  
+   img[alt="discount"]
+  {
+      position: relative;
+      display: inline-block;
+      height: 176px;
+      width: 115px;
+      top: 309px;
+      right: 133px;
+      filter: drop-shadow(-3px 4px 0.7px #ababab);
+  }
+  
+  .discount-content h4{
+      
+      position: relative;
+      display: inline-block;
+      color: #fff;
+      font-size: 12px;
+      font-weight: normal;
+      left: -25%;
+      top: 169px;
+  }
+      /* font-size: 4000px; */
+  
+  .discount-content h1{
+    position: relative;
+    font-size: 40px; color: #fff;
+    font-weight: normal;
+    top: 127px;
+    left: -28%;
+  }
+  
+  .dots{
+      /* background-color: black; */
+      display: flex;
+      position: relative;
+      top: -180px;
+      left: 21%;
+  }
+  
+  .dot-yellow-dot{
+    position: relative;
+    background-color: #fbd104;
+    border: 5px solid none;
+    padding: 11px 11.5px;
+    left: -13%;
+    border-radius: 50%;
+    display: inline-block;
+  
+  }
+  .dot-tomato-dot{
+    position: relative;
+    background-color: #fe5e35;
+    border: 5px solid none;
+    padding: 11px 11.5px;
+    left: -6%;
+    border-radius: 50%;
+    display: inline-block;
+  
+  }
+  
+  .dot-black-dot{
+    position: relative;
+    background-color: #000;
+    border: 5px solid none;
+    padding: 11px 11.5px;
+    left: 0%;
+    border-radius: 50%;
+    display: inline-block;
+  
+  }/*
+  .dot-tomato-dot{
+    position: relative;
+    background-color: #fe5e35;
+    border: 2px solid none;
+  }
+  
+  .dot-black-dot{
+    position: relative;
+    background-color: #000;
+    border: 2px solid none;
+    color: #fff
+  }
+  /* .dot-yellow-dot{
+      border: 2px solid black;*/
+    .right-section button{
+      position: relative;
+      top: -159px;
+      right: 4%;
+    }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="./images/logo.svg" alt="logo" />
+      <div class="nav-items">
+        <h5 class="nav-item-active-item">Home</h5>
+        <h5 class="nav-item">Product</h5>
+        <h5 class="nav-item">Price</h5>
+        <h5 class="nav-item">About</h5>
+      </div>
+      <img src="./images/actions.svg" alt="actions" />
+    </nav>
+    <div class="intro-section">
+      <div class="left-section">
+        <h3>
+          New Product
+          <img src="./images/circles.svg" alt="circles" />
+        </h3>
+        <h1>Wireless Headphone</h1>
+        <div class="sub-headlines">
+          <h5 class="sub-headline">
+            <img src="./images/plus.svg" alt="plus" /> Clear Sound
+          </h5>
+          <h5 class="sub-headline">
+            <img src="./images/plus.svg" alt="plus" /> FM Function
+          </h5>
+          <h5 class="sub-headline">
+            <img src="./images/plus.svg" alt="plus" /> Up To 11 Hours Playtime
+          </h5>
+        </div>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <div class="action-btns">
+          <button class="action-btn">Go Shopping</button>
+          <button class="action-btn">See Catalog</button>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="headphone-div">
+          <img src="./images/discount.svg" alt="discount" class="discount" />
+          <div class="discount-content">
+            <h4>Discount</h4>
+            <h1>50%</h1>
+          </div>
+          <img src="./images/headphones.jpg" alt="headphone" />
+        </div>
+        <div class="dots">
+          <h4 class="dot-yellow-dot"></h4>
+          <h4 class="dot-tomato-dot"></h4>
+          <h4 class="dot-black-dot"></h4>
+        </div>
+        <button class="action-btn">Add to chart</button>
+      </div>
+    </div>
+  </body>
+</html>
